@@ -21,7 +21,7 @@ public class Modul2065 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Modul2202457201065 m2 = new Modul2202457201065();
+        Modul2065  m2 = new Modul2065 ();
         m2.luasLngkrn();
         
 
