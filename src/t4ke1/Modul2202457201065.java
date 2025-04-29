@@ -11,19 +11,20 @@ import javax.swing.JOptionPane;
  * @author sitin
  */
 public class Modul2202457201065 {
- void luasSegetiga(){
+ void luasSegitiga(){
    double alas = Double.parseDouble(JOptionPane.showInputDialog("Masukkan alas segitiga : "));
    double tinggi = Double.parseDouble(JOptionPane.showInputDialog("Masukkan tinggi segitiga : "));
         double luas = 0.5 * alas * tinggi;
-        JOptionPane.showInputDialog(null, "Masukkan Luas Segitiga : " + luas);
- }
+            JOptionPane.showMessageDialog(null, "Luas Segitiga adalah: " + luas);
+    }
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
         Modul2202457201065 m2 = new Modul2202457201065();
-        m2.luasSegetiga();
+        m2.luasSegitiga();
         
         
 
